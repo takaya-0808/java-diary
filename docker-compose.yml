@@ -7,7 +7,7 @@ services:
       - 48888:8080
     tty: true
     volumes:
-      - ./diary:/srv/cached
+      - ./diary:/srv:cached
     working_dir: /srv
 
   db:
